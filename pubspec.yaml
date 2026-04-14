@@ -1,5 +1,5 @@
 name: prism
-description: Liquid glass focus timer
+description: Liquid glass focus timer with Live Activities
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_local_notifications: ^17.0.0
+  live_activities: ^2.0.0
 
 flutter:
   uses-material-design: true
